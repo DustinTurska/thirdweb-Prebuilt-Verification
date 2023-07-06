@@ -2,8 +2,8 @@ import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 import { CronosBeta } from "@thirdweb-dev/chains" // Chain the contract you want to verify is on
 
 const sdk = new ThirdwebSDK(CronosBeta)
-const explorerAPIUrl = "https://api.cronoscan.com/api"; // e.g. https://api.etherscan.io/api
-const explorerAPIKey = "C8JPW5MND74XT9BXMP3PP4F9FHCTQP3FCD"; // Generate API key on the explorer
+const explorerAPIUrl = ""; // e.g. https://api.etherscan.io/api
+const explorerAPIKey = ""; // Generate API key on the explorer
 
 await sdk.verifier.verifyThirdwebContract(
   "DropERC721",
