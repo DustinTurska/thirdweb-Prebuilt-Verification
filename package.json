@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@thirdweb-dev/chains": "^0.1.27",
-    "@thirdweb-dev/sdk": "^3.10.28",
+    "@thirdweb-dev/sdk": "^4",
     "ethers": "^5"
   },
   "devDependencies": {
